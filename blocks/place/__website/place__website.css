@@ -3,11 +3,11 @@
 }
 
 
-@media all and (max-width: 688px) {
+@media all and (max-width: 735px) {
 
   .place__website{
-    padding-left: 16px;
-    padding-right: 16px;
+
+    display: none;
   }
 
 
