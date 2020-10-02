@@ -1,0 +1,14 @@
+.place__website {
+  align-self: end;
+}
+
+
+@media all and (max-width: 688px) {
+
+  .place__website{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+}

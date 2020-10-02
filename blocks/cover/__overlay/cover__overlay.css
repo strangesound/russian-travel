@@ -1,0 +1,30 @@
+.cover__overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  background: #2a2c2f 0.3;
+}
+.cover__overlay::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 0.25s;
+}
+
+.cover__overlay:hover::after {
+  opacity: 0.8;
+}

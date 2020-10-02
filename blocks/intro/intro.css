@@ -1,47 +1,8 @@
 .intro {
   max-width: 984px;
-  margin: 92px 4.6875% 0 4.6875%;
+  margin: 92px auto 0 auto;
+  box-sizing: border-box;
 }
-
-.intro__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 1.07;
-  margin: 0 0 40px 0;
-}
-
-.intro__text {
-  margin: 0 0 32px 0;
-  max-width: 690px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 163%;
-}
-
-.intro__list {
-  padding:0;
-  margin: 0;
-  list-style: none;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 1.5;
-}
-
-.intro__list-span {
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.5;
-}
-
 
 @media all and (max-width: 1023px) {
 
@@ -57,10 +18,5 @@
     margin: 64px 16px 0 16px;
   }
 
-  .intro__title {
-
-    font-size: 32px;
-    margin: 0 0 40px 0;
-  }
 
 }
