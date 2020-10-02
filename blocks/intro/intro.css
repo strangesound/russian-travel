@@ -41,3 +41,18 @@
   font-size: 12px;
   line-height: 1.5;
 }
+
+
+@media all and (max-width: 767px) {
+
+  .intro {
+    margin: 64px 16px 0 16px;
+  }
+
+  .intro__title {
+
+    font-size: 32px;
+    margin: 0 0 40px 0;
+  }
+
+}

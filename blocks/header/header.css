@@ -13,8 +13,6 @@
   flex-direction: row;
   align-items: flex-end;
   list-style-type: none;
-
-
 }
 
 .header__lang-link {
@@ -28,14 +26,33 @@
   text-align: right;
   color: white;
   text-decoration: none;
-
 }
 
 .header__lang-link_selected {
   text-decoration-line: underline;
 }
 
-.header__logo{
+.header__logo {
   width: 176px;
   height: 52px;
+}
+
+@media all and (max-width: 1023px) {
+  .header {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header {
+    padding-top: 16px;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
 }
