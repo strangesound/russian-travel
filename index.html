@@ -13,10 +13,10 @@
         <img src="./images/header-logo.svg" class="header__logo" />
         <ul class="header__lang-links">
           <li class="header__lang-link header__lang-link_selected">
-            <a target="_blank" href="#" class="">Ru</a>
+            <a target="_blank" href="#" class="header__lang-link">Ru</a>
           </li>
           <li class="header__lang-link">
-            <a target="_blank" href="#" class="">En</a>
+            <a target="_blank" href="#" class="header__lang-link">En</a>
           </li>
         </ul>
       </header>
@@ -50,32 +50,33 @@
           проехала 20 тысяч километров по родной стране. Мы выбрали и описали
           некоторые интересные места, достойные вашего отпуска.
         </p>
+        <ul class="intro__list">
+          <li class="intro__list-item">
+            Часовых поясов <span class="intro__list-span">11</span>
+          </li>
 
-        <p class="intro__list">
-          Часовых поясов <span class="intro__list_span">11</span>
-        </p>
+          <li class="intro__list-item">
+            Объектов природного наследия ЮНЕСКО
+            <span class="intro__list-span">12</span>
+          </li>
 
-        <p class="intro__list">
-          Объектов природного наследия ЮНЕСКО
-          <span class="intro__list_span">12</span>
-        </p>
+          <li class="intro__list-item">
+            Объектов культурного наследия ЮНЕСКО
+            <span class="intro__list-span">16</span>
+          </li>
 
-        <p class="intro__list">
-          Объектов культурного наследия ЮНЕСКО
-          <span class="intro__list_span">16</span>
-        </p>
+          <li class="intro__list-item">
+            Природных заповедников <span class="intro__list-span">105</span>
+          </li>
 
-        <p class="intro__list">
-          Природных заповедников <span class="intro__list_span">105</span>
-        </p>
-
-        <p class="intro__list">
-          Аэропортов <span class="intro__list_span">241</span>
-        </p>
+          <li class="intro__list-item">
+            Аэропортов <span class="intro__list-span">241</span>
+          </li>
+        </ul>
       </section>
       <section class="photo-grid">
         <img
-          src="./images/photo-grid-arisa.jpg"
+          src="./images/photo-grid-train.jpg"
           class="photo-grid__item"
           alt="Image 1"
         />
@@ -85,7 +86,22 @@
           alt="Image 1"
         />
         <img
-          src="./images/photo-grid-baikal-2.jpg"
+          src="./images/photo-grid-tuman.jpg"
+          class="photo-grid__item"
+          alt="Image 1"
+        />
+        <img
+          src="./images/photo-grid-sochi.jpg"
+          class="photo-grid__item"
+          alt="Image 1"
+        />
+        <img
+          src="./images/photo-grid-arisa.jpg"
+          class="photo-grid__item"
+          alt="Image 1"
+        />
+        <img
+          src="./images/photo-grid-baikal.jpg"
           class="photo-grid__item"
           alt="Image 1"
         />
@@ -95,7 +111,7 @@
           alt="Image 1"
         />
         <img
-          src="./images/photo-grid-ergaki.jpg"
+          src="./images/photo-grid-kondratiev.jpg"
           class="photo-grid__item"
           alt="Image 1"
         />
@@ -110,27 +126,12 @@
           alt="Image 1"
         />
         <img
-          src="./images/photo-grid-kondratiev.jpg"
+          src="./images/photo-grid-baikal-2.jpg"
           class="photo-grid__item"
           alt="Image 1"
         />
         <img
-          src="./images/photo-grid-sochi.jpg"
-          class="photo-grid__item"
-          alt="Image 1"
-        />
-        <img
-          src="./images/photo-grid-train.jpg"
-          class="photo-grid__item"
-          alt="Image 1"
-        />
-        <img
-          src="./images/photo-grid-tuman.jpg"
-          class="photo-grid__item"
-          alt="Image 1"
-        />
-        <img
-          src="./images/photo-grid-baikal.jpg"
+          src="./images/photo-grid-ergaki.jpg"
           class="photo-grid__item"
           alt="Image 1"
         />
@@ -176,7 +177,7 @@
             <p class="place__url-heading">url</p>
             <a
               target="_blank"
-              href="https://www.nationalgeographic.com/"
+              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               class="place__link"
               >National Geographic</a
             >
@@ -207,7 +208,10 @@
 
           <div class="place__website">
             <p class="place__url-heading">url</p>
-            <a target="_blank" href="http://facebook.com/" class="place__link"
+            <a
+              target="_blank"
+              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+              class="place__link"
               >Facebook</a
             >
           </div>
@@ -266,7 +270,7 @@
 
           <div class="place__website">
             <p class="place__url-heading">url</p>
-            <a target="_blank" href="http://park-kosa.ru/" class="place__link"
+            <a target="_blank" href="http://vodlozero.ru" class="place__link"
               >park-kosa.ru</a
             >
           </div>
@@ -290,41 +294,47 @@
         </div>
       </section>
 
-      <section class="cover">
-        <div class="cover__overlay"></div>
+      <!-- Байкал -->
 
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
-          до Байкала на электричках.
-        </p>
-      </section>
+      <div class="cover">
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
+          class="cover__overlay"
+        >
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе и iframes — путешествие от
+            столицы до Байкала на электричках.
+          </p>
+          <div class="cover__background"></div>
+        </a>
+      </div>
 
       <footer class="footer">
         <ul class="footer__links">
           <li>
-            <a class="footer__link" href="#" target="_blank">Карты</a>
+            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
           </li>
 
           <li>
-            <a class="footer__link" href="#" target="_blank">Погода</a>
+            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
           </li>
 
           <li>
-            <a class="footer__link" href="#" target="_blank">Расписание</a>
+            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
           </li>
 
           <li>
-            <a class="footer__link" href="#" target="_blank">Календарь</a>
+            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
           </li>
 
           <li>
-            <a class="footer__link" href="#" target="_blank">Путешествия</a>
+            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
           </li>
         </ul>
 
         <p class="footer__copyright">&copy;2020. Arseny Petrovich</p>
-
       </footer>
     </div>
   </body>
