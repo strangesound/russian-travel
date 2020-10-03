@@ -4,5 +4,11 @@
   margin: auto;
   padding:0 48px 0 48px;
   box-sizing: border-box;
-  
+
+}
+
+@media all and (max-width: 767px) {
+  .cover {
+    padding:0 4% 0 4%;
+  }
 }
