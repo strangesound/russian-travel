@@ -3,7 +3,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0px auto;
   /* выше для экранов больше 1280px отцентрировали весь контент */
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Inter", "Helvetica Neue", "Arial", sans-serif;
   position: relative;
   color: white;
   box-sizing: border-box;

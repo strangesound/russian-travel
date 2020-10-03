@@ -1,12 +1,12 @@
 .header__lang-link {
   margin: 0;
   margin-left: 10px;
-  font-family: Inter;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
   color: white;
-  text-decoration: none;
+  /* text-decoration-line: none; */
 }
