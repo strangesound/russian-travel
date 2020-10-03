@@ -11,6 +11,13 @@
   margin-bottom: 0;
 }
 
+@media all and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+
 @media all and (max-width: 688px) {
   .place__paragraph {
     padding-left: 16px;

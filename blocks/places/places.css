@@ -5,6 +5,15 @@
   padding-right: 48px; */
 }
 
+@media all and (max-width: 1279px) {
+
+  .places{
+    gap: 28px;
+    margin: 72px 48px 80px 48px;
+
+  }
+}
+
 @media all and (max-width: 1023px) {
 
   .places{

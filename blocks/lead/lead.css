@@ -4,3 +4,10 @@
   max-width: 984px;
   margin: auto;
 }
+
+@media all and (max-width: 1279px) {
+  .lead{
+    max-width: 928px;
+
+  }
+}

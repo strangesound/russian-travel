@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
   </head>
 
-  <!-- Аня, привет! Спасибо за ревью.
-    Очень классный проект, приятно верстать,
-    читать тексты и смотреть фото.  -->
+  <!-- Вроде все исправил, даже нашел стиль border-bottom
+  Да, видимо prettier неясно зачем ставит лишние слэши.
+Причем я правлю, на автомате нажимаю преттиер и он снова все возвращает-->
 
   <body class="body-class">
     <div class="page">
@@ -19,17 +19,16 @@
           src="./images/header-logo.svg"
           alt="Карта России"
           class="header__logo"
-        />
+        >
         <ul class="header__lang-links">
           <li class="header__lang-link-list">
-            <a href="#" class="header__lang-link links-opacity">Ru</a>
-          </li>
-          <li class="header__lang-link">
             <a
               href="#"
-              class="header__lang-link links-opacity header__lang-link_unselected"
-              >En</a
-            >
+              class="header__lang-link links-opacity header__lang-link_selected"
+              >Ru</a>
+          </li>
+          <li class="header__lang-link">
+            <a href="#" class="header__lang-link links-opacity">En</a>
           </li>
         </ul>
       </header>
@@ -41,12 +40,12 @@
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
 
-          <figure>
+          <figure class="lead__image-wrapper">
             <img
               src="./images/lead-polka_captions.jpg"
               alt="В поезде на верхней полке"
               class="lead__image"
-            />
+            >
             <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
           </figure>
         </section>
@@ -97,57 +96,57 @@
             src="./images/photo-grid-train.jpg"
             class="photo-grid__item"
             alt="Поезда"
-          />
+          >
           <img
             src="./images/photo-grid-atharva-tulsi.jpg"
             class="photo-grid__item"
             alt="Атхарва"
-          />
+          >
           <img
             src="./images/photo-grid-tuman.jpg"
             class="photo-grid__item"
             alt="Туман"
-          />
+          >
           <img
             src="./images/photo-grid-sochi.jpg"
             class="photo-grid__item"
             alt="Сочи"
-          />
+          >
           <img
             src="./images/photo-grid-arisa.jpg"
             class="photo-grid__item"
             alt="Ариса"
-          />
+          >
           <img
             src="./images/photo-grid-baikal.jpg"
             class="photo-grid__item"
             alt="Озеро Байкал"
-          />
+          >
           <img
             src="./images/photo-grid-elbrus.jpg"
             class="photo-grid__item"
             alt="Image 1"
-          />
+          >
           <img
             src="./images/photo-grid-kondratiev.jpg"
             class="photo-grid__item"
             alt="Кондратьев"
-          />
+          >
           <img
             src="./images/photo-grid-kamchatka-1.jpg"
             class="photo-grid__item"
             alt="Камчатка"
-          />
+          >
           <img
             src="./images/photo-grid-kamchatka-2.jpg"
             class="photo-grid__item"
             alt="Камчатка"
-          />
+          >
           <img
             src="./images/photo-grid-baikal-2.jpg"
             class="photo-grid__item"
             alt="Озеро Байкал"
-          />
+          >
           <img
             src="./images/photo-grid-ergaki.jpg"
             class="photo-grid__item"
@@ -174,8 +173,8 @@
               src="./images/place-kosa.jpg"
               alt="Куршская коса"
               class="place__image"
-            />
-            <div class="place-paragraph-wrapper">
+            >
+            <div class="place__paragraph-wrapper">
               <p class="place__paragraph">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                 водных горизонта — спокойного Куршского залива с одной стороны и
@@ -210,7 +209,7 @@
               src="./images/place-kolsky.jpg"
               alt="Кольский"
               class="place__image"
-            />
+            >
             <div class="place-paragraph-wrapper">
               <p class="place__paragraph">
                 Почти весь полуостров находится за Полярным кругом. Саамская
@@ -246,7 +245,7 @@
               src="./images/place-altai.jpg"
               alt="Алтай"
               class="place__image"
-            />
+            >
             <div class="place-paragraph-wrapper">
               <p class="place__paragraph">
                 Алтай — одно из красивейших мест в России. В первую очередь
@@ -281,7 +280,7 @@
               src="./images/place-winter-baikal.jpg"
               alt="Зимний Байкал"
               class="place__image"
-            />
+            >
             <div class="place-paragraph-wrapper">
               <p class="place__paragraph">
                 Всем известен Байкал как крупнейшее озеро в мире. Многие также
@@ -315,7 +314,7 @@
               src="./images/place-karelia.jpg"
               alt="Карелия"
               class="place__image"
-            />
+            >
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
               сибирская лиственница не растёт западнее Водлозера. Зато здесь она
@@ -398,8 +397,10 @@
           </ul>
         </nav>
 
-        <p class="footer__copyright">&copy;2020. Arseny Petrovich</p>
+        <p class="footer__copyright">&copy;2020. Arseny</p>
       </footer>
     </div>
   </body>
 </html>
+
+

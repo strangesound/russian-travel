@@ -6,8 +6,18 @@
   line-height: 1.4;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin-left: 24px;
+  padding-top: 8px;
 }
+
+
+@media all and (max-width: 1023px) {
+
+
+  .lead__caption{
+    padding-left: 24px;
+  }
+ }
+
 @media all and (max-width: 767px) {
 
 

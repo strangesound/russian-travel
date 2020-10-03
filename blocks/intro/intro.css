@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
+@media all and (max-width: 1279px) {
+
+  .intro {
+    max-width: 928px;
+  }
+}
+
 @media all and (max-width: 1023px) {
 
   .intro {
+
     margin-left:24px;
   margin-right:24px;
   }
