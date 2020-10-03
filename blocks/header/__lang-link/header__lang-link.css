@@ -1,4 +1,6 @@
 .header__lang-link {
+  display: inline;
+
   margin: 0;
   margin-left: 10px;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
